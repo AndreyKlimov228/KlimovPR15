@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KlimovPR15.MainPage"
+             Title="">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry Placeholder="Заголовок" Margin="30" TextColor="Green" FontSize="Large" x:Name="title"/>
+            <Label x:Name="lable1" BackgroundColor="LightGreen" HorizontalTextAlignment="Center" TextColor="White" FontSize="Large" VerticalTextAlignment="Center"></Label>
+            <Button x:Name="button1" Clicked="Button1_Clicked" BackgroundColor="LightGreen" BorderWidth="3" TextColor="White" FontSize="Medium" BorderColor="Green" Text="Старт" Margin="5"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
